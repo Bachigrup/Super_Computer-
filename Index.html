@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head >
+	
+		<title>Validar Usuario y Clave </title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Uso de Booststrap - archivos compilados</title>
+	<!-- Css Boottstrap -->
+	<link rel="stylesheet" type="text/css" href="./css/Boottstrap.mi.css">
+	<script >
+
+		function comprobarClave(){
+clave1=document.f1.clave1.value
+clave2=document.f1.clave2.evalue
+
+if (clave1 =="bachi" && Clave2 =="grup"){
+
+	alert("Los Datos Coinciden...\n Bienvenido");
+	var href="/bachigrup/html/principal.html";
+	window.location=href;
+}
+else{
+	alert("Bienvenidos ...\n A nuestra página Web.");
+	var href="/bachigrup/html/principal.html"; 
+	window.location=href; 
+};
+
+}
+		
+</script>
+</head><center>
+	<h1 class="tex-success">Bienvenidos</h1>
+<body background="cyan"><f>
+	<img src="c:/bachigrup/imagenes/Logo.png" align="left" >&nbsp;
+	<h4>validar contraseña y password</h4>
+	<br>
+	<h4>Presionar botón de confirmar</h4>
+	<br>
+	<form action=""  name= "f1">
+		
+			  <hr color="#3F0099" size="4">
+
+
+		<h5>Usuario:<input type="password" name="clave1" size="20"></h5>
+		<br>
+	    <h5>Contraseña:<input type="password" name="clave2" size="20"></h5>
+		<br>
+		<input type="button" value="Ingresar" onclick="comprobarClave()">
+	</center>
+  <hr color="#3F0099"  size="6">
+
+	</form>
+
+</body>
+</html>
